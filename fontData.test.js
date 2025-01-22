@@ -1,3 +1,6 @@
+/**
+ * @jest-environment node
+ */
 const path = require("path");
 const { parseFontFile, suggestFontStyle } = require("./fontData");
 
